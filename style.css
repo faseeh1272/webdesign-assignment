@@ -9,6 +9,8 @@
 body{
     font-family: "Work Sans", serif;
     position: relative;
+    background-color: black;
+    color: white;
 
 }
 /* img{
@@ -35,7 +37,7 @@ header{
 .logo img{
     width: 100px;
 }
-body , ul  
+  ul  
 {
     display: flex;
     gap: 31px;
@@ -79,9 +81,7 @@ img.img-right{
 .profile-upper{
     background-color: #D2B056;
     color: aliceblue;
-    border-radius: 20px;
-    position: absolute;
-   top: 546px;
+    border-radius: 20px; 
 }
 h1.profile-heading{
     color: black;
@@ -94,6 +94,82 @@ p.profile-para{
     padding-right: 95px;
 }
 .group-section{
-  position: absolute;
-  height: 500px;
+ width: 100%;
+ background-color: black;
+ padding: 36px;
+ line-height: 33px;
+}
+.group-heading{
+    color: #D2B056;
+}
+.group-para{
+    color: #D2B056;
+}
+span.all{
+   
+    color: #D2B056;
+    background-color: white;
+    padding: 14px 136px;
+}
+.card{
+    width: 100%;
+    padding: 40px 0;
+    background-color:black;
+}
+.card img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius:  8px 8px 0px 0px;
+}
+.card-img{
+    background-color:black;
+     height: 300px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: 1px solid #D2B056;
+    border-radius:  8px 8px 0px 0px;
+}
+.card-para{
+    padding: 14px;
+    font-weight: 600;
+}
+p.second-para{
+font-size: 15px;
+margin-left: 15px;
+padding-bottom: 17px;
+}
+span.read-more{
+    margin-left: 14px;
+    padding: 20px;
+    color: #D2B056;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.card-content{
+    padding: 20px;
+    background-color: #D2B056;
+}
+.card-four{
+    width: 227px;
+}
+
+.card-5{
+    background-color: white;
+}
+.card-seventeen
+{
+    width: 409px;
+    height: 298px;
+}
+.card-twenty{
+    width: 412px;
+}
+.card-22{
+    width: 306px;
+}
+.card-twenty-four{
+    width: 424px;
+    height: 298px;
 }

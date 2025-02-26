@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+body{
+    font-family: "Work Sans", serif;
+    position: relative;
+
+}
+/* img{
+
+    max-width: 100%;
+} */
+
+header{
+    position: relative;
+    width: 100%;
+    color:#D2B056;
+    background-color: black;
+
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+body , ul  
+{
+    display: flex;
+    gap: 31px;
+
+}
+ul li{
+    list-style: none;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: #D2B056;
+    padding: 13px 34px;
+    border:2px solid #D2B056;
+}
+.left-content{
+color: white;
+}
+
+.main-heading{
+    margin-top: 30px;
+    color: white;
+    font-weight:600;
+    font-size: 60px;
+    padding-top: 40px;
+}
+img.img-right{
+    width: 525px;
+    height: 635px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.profile-image{
+   max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.lower-section{
+    position: relative;
+}
+.profile-upper{
+    background-color: #D2B056;
+    color: aliceblue;
+    border-radius: 20px;
+    position: absolute;
+   top: 546px;
+}
+h1.profile-heading{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+p.profile-para{
+    color: black;
+    text-align: left;
+    padding-right: 95px;
+}
+.group-section{
+  position: absolute;
+  height: 500px;
+}

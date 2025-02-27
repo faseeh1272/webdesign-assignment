@@ -65,10 +65,8 @@ color: white;
     padding-top: 40px;
 }
 img.img-right{
-    width: 525px;
-    height: 635px;
-    margin-top: 30px;
-    margin-right: 20px;
+    width: 100%;
+    height: auto; 
 }
 .profile-image{
    max-width: 100%;
@@ -148,7 +146,7 @@ span.read-more{
     margin-top: 5px;
 }
 .card-content{
-    padding: 20px;
+    padding: 30px;
     background-color: #D2B056;
 }
 .card-four{
@@ -172,4 +170,126 @@ span.read-more{
 .card-twenty-four{
     width: 424px;
     height: 298px;
+}
+section.All-Companies{
+    width: 100%;
+    margin-top: 30px;
+   margin-bottom: 60px;
+}
+span.company{
+    color: black;
+    padding: 14px;
+    background-color: #D2B056;
+
+    
+}
+section.idia{
+    width: 100%;
+    background-color: #D2B056;
+    color: black;
+    height: 300px;
+}
+.idia-heading{
+    margin-top: 15px;
+    font-weight: 600;
+    color: black;
+}
+.idia-para{
+   padding: 15px;
+}
+.work{
+    margin-top: 45px;
+}
+section.choose{
+    width: 100%;
+    height: 700px;
+    background-color: #D2B056;
+    color: black;
+    margin-top: 40px;
+    align-items: center;
+   
+}
+.choose-heading{
+    font-weight: 600;
+    margin-top: 120px;
+}
+.choose-para{
+    margin-top: 48px;
+    font-size: 18px;
+}
+
+.say-hello {
+    margin-top: 35px;
+}
+
+span.read-more.text-center.Say {
+    padding: 15px;
+}
+.first-content{
+    width: 648px;
+    height: 152px;
+    background-color: white;
+    margin-top: 56px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.heading-2{
+    margin-top: 5px;
+}
+section.happy-clients{
+    width: 100%;
+    height: 800px;
+    color: #D2B056;
+    background-color: rgb(49, 48, 48);
+}
+.happy-haeding{
+    font-weight: 600;
+    margin: 40px;
+}
+p.clients{
+    color: white;
+}
+h1.testimonial{
+    margin-top: 115px;
+}
+.auther{
+    margin-top: 40px;
+}
+p.last-para{
+    color: white;
+}
+
+footer.footer-section{
+    width: 100%;
+    height: 620px;
+    background-color: #D2B056;
+    color: black;
+    margin-top: 30px;
+    padding: 70px;
+    border-radius: 10px;
+}
+.footer-box{
+    width: 336px;
+    height: 96px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.fa-location-dot{
+    background-color: #D2B056;
+    padding: 10px;
+  
+}
+.address{
+    margin-bottom: -4px;
+    color: rgb(97, 95, 95);
+}
+.bg-n{
+    background-color: navajowhite;
+}
+.icon-empty{
+    width: 48px;
+    height: 48px;
+    background-color: #d3ba74;
 }

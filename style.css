@@ -80,6 +80,7 @@ img.img-right{
     background-color: #D2B056;
     color: aliceblue;
     border-radius: 20px; 
+    margin-bottom: 20px;
 }
 h1.profile-heading{
     color: black;
@@ -292,4 +293,50 @@ footer.footer-section{
     width: 48px;
     height: 48px;
     background-color: #d3ba74;
+}
+.logo-img{
+    display: flex;
+    justify-content: space-between;
+ margin: 30px;
+}
+.logo-img img{
+    color: #D2B056;
+}
+img.vector-4{
+  width: 150px;
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-size: 16px;
+}
+.submit{
+    margin-top: 20px;
+    width: 140px;
+    background-color: black;
+    color: #D2B056;
+    padding: 12px;
+    border-radius: 5px;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    color: #D2B056;
+    padding: 30px;
+    gap: 215px;
+}
+.footer-nav ul{
+    gap: 50px;
 }

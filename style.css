@@ -138,7 +138,7 @@ font-size: 15px;
 margin-left: 15px;
 padding-bottom: 17px;
 }
-span.read-more{
+a.read-more{
     margin-left: 14px;
     padding: 20px;
     color: #D2B056;
@@ -223,15 +223,14 @@ section.choose{
     margin-top: 35px;
 }
 
-span.read-more.text-center.Say {
+a.read-more.text-center.Say {
     padding: 15px;
 }
 .first-content{
-    width: 648px;
-    height: 152px;
+    width: 100%;
     background-color: white;
-    margin-top: 56px;
-    padding: 30px;
+    /* padding-top: 56px; */
+    padding: 20px;
     border-radius: 10px;
 }
 .heading-2{
@@ -239,7 +238,7 @@ span.read-more.text-center.Say {
 }
 section.happy-clients{
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
     color: #D2B056;
     background-color: rgb(49, 48, 48);
 }
@@ -262,7 +261,7 @@ p.last-para{
 
 footer.footer-section{
     width: 100%;
-    height: 620px;
+    /* height: 620px; */
     background-color: #D2B056;
     color: black;
     margin-top: 30px;
@@ -334,9 +333,33 @@ input{
     display: flex;
     align-items: center;
     color: #D2B056;
-    padding: 30px;
+    /* padding: 30px; */
     gap: 215px;
 }
 .footer-nav ul{
     gap: 50px;
+}
+/* $animationSpeed: 40s; */
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+.slider {
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: auto;
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
 }

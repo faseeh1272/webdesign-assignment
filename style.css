@@ -92,6 +92,7 @@ p.profile-para{
     text-align: left;
     padding-right: 95px;
 }
+ 
 .group-section{
  width: 100%;
  background-color: black;
@@ -140,11 +141,22 @@ padding-bottom: 17px;
 }
 a.read-more{
     margin-left: 14px;
-    padding: 20px;
+    padding: 15px;
     color: #D2B056;
     background-color: black;
     border-radius: 5px;
     margin-top: 5px;
+    text-decoration: none;
+}
+a.read-more.get{
+    margin-left: 14px;
+    padding: 12px;
+    background-color: #0e0d0d; 
+    color: #D2B056; 
+      border: 1px solid #D2B056 ;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-decoration: none;
 }
 .card-content{
     padding: 30px;
@@ -203,7 +215,7 @@ section.idia{
 }
 section.choose{
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
     background-color: #D2B056;
     color: black;
     margin-top: 40px;
@@ -229,7 +241,7 @@ a.read-more.text-center.Say {
 .first-content{
     width: 100%;
     background-color: white;
-    /* padding-top: 56px; */
+  margin: 30px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -354,7 +366,7 @@ input{
 	width: auto;
 	
 	.slide-track {
-		animation: scroll $animationSpeed linear infinite;
+		animation: scroll   linear infinite;
 		display: flex;
 		width: calc(250px * 14);
 	}

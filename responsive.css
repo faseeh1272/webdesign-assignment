@@ -1,21 +1,29 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
-}
-.footer-nav ul .footer-nav ul{
+
+ .footer-nav ul{
     display: none;
 }
-form{
-    flex-direction: column;
+.first-content{
+    width: 90%;
+    margin: 30px;
+  padding: 10px;
 }
+.happy-haeding{
+    margin: 50px;
+}
+
 .submit{
     display: hidden;
 }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    
+    .card-content {
+        margin-bottom: 22px;
 }
-
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     img.img-right{
@@ -24,7 +32,7 @@ form{
     }
     .happy-haeding {
         font-weight: 600;
-        margin: 184px;
+        margin: 80px;
     }
     .footer-nav ul {
         gap: 30px;
